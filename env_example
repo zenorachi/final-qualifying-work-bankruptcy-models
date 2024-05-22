@@ -1,0 +1,6 @@
+FNS_API_URL=https://api-fns.ru
+TOKEN=token
+COMPANY_INN=123456
+CERT=''
+KEY=''
+LIQUIDITY_FILE=liquidity.csv
