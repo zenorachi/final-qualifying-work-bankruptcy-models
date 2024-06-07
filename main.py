@@ -12,7 +12,10 @@ def make_plot(x, y, y_label: str, title: str):
 
     plt.plot(x, y, color='green', marker='o', markersize=7)
     for i, value in enumerate(y):
-        plt.annotate(str(value), (x[i], value), textcoords="offset points", xytext=(5, 0), ha='left')
+        plt.annotate(str(value), (x[i], value),
+                     textcoords="offset points",
+                     xytext=(5, 0),
+                     ha='left')
     plt.xlabel('Год')
     plt.ylabel(y_label)
     plt.title(title)

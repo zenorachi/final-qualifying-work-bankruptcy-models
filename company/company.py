@@ -1,5 +1,4 @@
 import math
-
 import aiohttp
 import pandas
 from aiohttp import ClientSession
